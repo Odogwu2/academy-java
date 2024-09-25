@@ -6,6 +6,8 @@ public class Strings {
 		
 	String s = "Hello World";	
 	
+	String ReversedWord = "";
+	
 	//Find the total length of the string and store it in a variable
 	int stringLength = s.length (); 
 	
@@ -34,9 +36,18 @@ public class Strings {
 	System.out.println (sub3);
 	
 	
-	int index = s.indexOf("World");//
+	int index = s.indexOf("World");//Looking for the first occurrence of the specified substring
 	System.out.println("The index of the World is: " + index);
 	
+	//find the character at the specified index 0
+	char c = s.charAt(0);
+	System.out.println ("The characteer at index 0: " + c);
+	
+	
+	for (int i = s.length()-1 ; i>=0; i--) {
+		ReversedWord += s.charAt(i); //getting the reversed word i.e., string value backwards
+	}
+	System.out.println (ReversedWord);
 	
 	}
 }
