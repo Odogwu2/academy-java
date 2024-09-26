@@ -23,7 +23,7 @@ public class FibonacciUserInput {
 
 		// Print the first n elements of Fibonacci series
 		for (int i = 0; i < n; i++) {
-			System.out.print(first + " "); // output message on the same line
+			System.out.print(first + " "); // output message on the same line. 
 			
 			third = first + second; // the 3rd number in a fibonacci series is a sum of the 1st & 2nd
 
