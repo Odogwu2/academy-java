@@ -14,7 +14,8 @@ public class PalindromeProgram {
 		String reverseInput = "";
 
 		for (int i = input.length() - 1; i >= 0; i--) {
-			reverseInput += input.charAt(i);
+			//reverseInput += input.charAt(i);
+			reverseInput = reverseInput + input.charAt(i);
 		}
 
 		if (input.toLowerCase().equals(reverseInput.toLowerCase())) {
