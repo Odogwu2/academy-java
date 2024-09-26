@@ -41,7 +41,7 @@ public class Strings {
 	
 	//find the character at the specified index 0
 	char c = s.charAt(0);
-	System.out.println ("The characteer at index 0: " + c);
+	System.out.println ("The character at index 0: " + c);
 	
 	
 	for (int i = s.length()-1 ; i>=0; i--) {
