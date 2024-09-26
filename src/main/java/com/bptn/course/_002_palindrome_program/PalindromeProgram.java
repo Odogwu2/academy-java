@@ -27,3 +27,11 @@ public class PalindromeProgram {
 	}
 
 }
+
+
+/*Declare a variable to receive user input
+Store the reverse of the input string in another variable
+Compare the values of both variables.
+If they are the same, print “Input string is palindrome”
+Otherwise, print “Input string is not palindrome”
+*/
