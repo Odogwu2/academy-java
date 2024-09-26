@@ -8,7 +8,7 @@ public class SingleRandomNumber {
 		//Random rand = new Random(); 
         
             int randomNumber = (int)(Math.random() * 100) + 1; 
-            //return type of the method which casts the variable to the datatype 
+            //return type of the object method which casts the variable to the datatype 
             // Math.random generates a random number
             // datatype variableName = objectName.method();
             
