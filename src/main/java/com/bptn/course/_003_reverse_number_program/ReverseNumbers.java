@@ -5,20 +5,19 @@ import java.util.Scanner;
 public class ReverseNumbers {
 
 	public static void main(String[] args) {
-		try (Scanner scanner = new Scanner(System.in)) {
-			System.out.print("Enter a number: ");
-			int number = scanner.nextInt();
+		Scanner scanner = new Scanner(System.in);
 
-			int reversedNumber = 0;
-			while (number != 0) {
-			    int lastDigit = number % 10;
-			    reversedNumber = reversedNumber * 10 + lastDigit;
-			    number /= 10; //or number = number / 10; 
-			}
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
 
-			System.out.println("Reversed number: " + reversedNumber);
-		} 
+        int reversedNumber = 0;
+        while (number != 0) {
+            int lastDigit = number % 10;
+            reversedNumber = reversedNumber * 10 + lastDigit;
+            number /= 10; //or number = number / 10; 
+        }
 
+        System.out.println("Reversed number: " + reversedNumber); 
 
 	}
 	
