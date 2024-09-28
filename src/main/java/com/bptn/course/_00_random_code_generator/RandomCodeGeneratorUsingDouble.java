@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomCodeGeneratorUsingDouble {
 
 	public static void main(String[] args) {
-		Random rand = new Random();
+		//Random rand = new Random();
 
 		double randomNumber = (double) Math.random();
 
