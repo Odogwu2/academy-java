@@ -12,12 +12,12 @@ public class Bike extends Vehicle {
 	}
 
     //Step 3c: Create a print() method as per the specification in the above
-//	public void print() {
-//		super.print(); //calls the print() method from the Vehicle class which is the parent class. 
-//	}
-//	
-	@Override
 	public void print() {
-		System.out.println("I am a bike");
+		super.print(); //calls the print() method from the Vehicle class which is the parent class. 
 	}
+	
+//	@Override
+//	public void print() {
+//		System.out.println("I am a bike");
+//	}
 }
