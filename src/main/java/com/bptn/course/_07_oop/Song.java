@@ -18,6 +18,7 @@ public class Song {
 		System.out.println("Is somebody I adore");
 		// Look at the previous version above and finish the song with a method call
 		// here:
+		chorus(); 
 
 	}
 
