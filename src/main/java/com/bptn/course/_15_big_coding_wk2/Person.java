@@ -22,9 +22,35 @@ public class Person {
 	}
 
 	// Create methods
+	public String getFirstName() {
+		return firstName; 
+	}
+	
+	public String getLastName() {
+		return lastName; 
+	}
+	
+	public void setFirstName(String firstName) {
+		this.firstName = firstName; 
+		//set methods take in a parameter.  
+	}
+	
+	public void setLastName(String lastName) {
+		this.lastName = lastName; 
+	}
+	
+	public String getBirthday() {
+		return birthMonth + "/" + birthDay + "/" + birthYear; 
+		//changed the return type to a string since we will be concatenating 'int' values with string literals. 
+	}
+	
+	public boolean verifySSN(String ssn) {
+		return this.ssn.equals(ssn);
+	}
+	
 	
 
-	// Dont modify the code below:
+	// Don't modify the code below:
 	public static void main(String[] args) {
 		Person person1 = new Person("John", "Doe", 1, 1, 1990, "123-45-6789");
 		Person person2 = new Person("Jane", "Doe", 2, 2, 1991, "987-65-4321");
