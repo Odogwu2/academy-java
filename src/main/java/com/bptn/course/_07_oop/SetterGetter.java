@@ -32,7 +32,7 @@ class Student {
     }
     public void setId(int newId) {
       id = newId;
-    }
+    } 
     // accessor methods - getters
     public String getName() {
         return name;
