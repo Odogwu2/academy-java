@@ -12,6 +12,13 @@ public class listGetSet {
 	      nameList.add("Grace");
 	      nameList.add("Deja");
 	      System.out.println(nameList);
+	      
+	      
+	      System.out.println(nameList.get(nameList.size()-1)); 
+	      
+	      nameList.set(0, "Udo");
+	      
+	      System.out.println(nameList);
 
 	}
 
