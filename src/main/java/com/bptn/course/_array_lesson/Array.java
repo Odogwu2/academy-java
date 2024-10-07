@@ -1,6 +1,6 @@
 package com.bptn.course._array_lesson;
 
-import java.util.ArrayList; 
+import java.util.ArrayList;
 
 public class Array {
 
