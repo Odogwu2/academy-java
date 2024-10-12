@@ -1,6 +1,7 @@
 package com.bptn.course._22_big_coding._sum_calculator;
 
-public class SumCalculator extends Thread {// The start point of the range
+public class SumCalculator extends Thread {
+	// The start point of the range
 	private int start;
 
 	// The end point of the range
