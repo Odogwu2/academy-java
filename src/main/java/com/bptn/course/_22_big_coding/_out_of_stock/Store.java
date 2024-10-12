@@ -20,7 +20,9 @@ public class Store {
 
 	public void purchase(String product, int quantity) throws OutOfStockException {
 		// Check if the product is available in the store. Hint: Use the map
-		if (!products.containsKey(product)) {
+		if (products.containsKey(product)) {
+//			System.out.println("Product " + product + " is available in store");
+		}else {
 			// If not, throw an OutOfStockException with a message indicating the product is
 			// not available.
 			throw new OutOfStockException("Product " + product + " not available in store");
