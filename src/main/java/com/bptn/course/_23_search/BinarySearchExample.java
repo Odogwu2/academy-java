@@ -8,7 +8,9 @@ public class BinarySearchExample {
 		int right = list.size() - 1;
 
 		while (left <= right) {
-			int mid = left + (right - left) / 2;
+			//int mid = left + (right - left) / 2;
+			
+			int mid = (left + right) / 2; 
 
 			if (list.get(mid) == target) {
 				return mid; // Element found, return its index
