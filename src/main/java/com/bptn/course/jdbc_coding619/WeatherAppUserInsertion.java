@@ -9,7 +9,7 @@ public class WeatherAppUserInsertion {
 
 	private static final String dbURL = "jdbc:postgresql://academydb-c6-s2-t1-do-user-12484302-0.j.db.ondigitalocean.com:25060/weatherDB";
 	private static final String dbUsername = "doadmin";
-	private static String dbPassword = "AVNS_ltxxapFTCK89ZgiAofE";
+	private static String dbPassword = "*****"; //remember to put this value. 
 	
 	
 
