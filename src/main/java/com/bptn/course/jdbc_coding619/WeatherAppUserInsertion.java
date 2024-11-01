@@ -27,7 +27,7 @@ public class WeatherAppUserInsertion {
 		return conn;
 	}
 
-	public void addUser(Connection conn, String firstName, String lastName, String username, String phone,
+	public void addUser (Connection conn, String firstName, String lastName, String username, String phone,
 			String emailId, String password, boolean emailVerified) {
 		try {
 			PreparedStatement stmt = null;
