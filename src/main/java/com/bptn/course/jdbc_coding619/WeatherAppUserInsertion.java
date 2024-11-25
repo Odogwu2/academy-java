@@ -12,6 +12,7 @@ public class WeatherAppUserInsertion {
 	private static String dbPassword = "*****"; //remember to put this value. 
 	
 	
+	
 
 	public Connection createConnection() {
 		Connection conn = null;
